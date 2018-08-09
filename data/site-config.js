@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    name:"Gatsby Starter Bootstrap CV",
+    name:"Mojaave.com",
     siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
     siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
     siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
@@ -11,10 +11,10 @@ module.exports = {
     userName: "Mahipat Jadav", // Username to display in the author segment.
     userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Ahmedabad, Gujarat, India", // User location to display in the author segment.
-    userAvatar: "http://res.cloudinary.com/vierbit/image/upload/v1533837680/mahipat.jpg", // User avatar to display in the author segment.
-    favicon32:"http://res.cloudinary.com/vierbit/image/upload/w_32,h_32/v1533837680/mahipat.jpg",
-    favicon16:"http://res.cloudinary.com/vierbit/image/upload/w_16,h_16/v1533837680/mahipat.jpg",
-    ogImage: "http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg",
+    userAvatar: `${__dirname}/../src/static/images/mahipat.jpg`, // User avatar to display in the author segment.
+    favicon32:`${__dirname}/../src/static/images/mahipat32.jpg`,
+    favicon16:`${__dirname}/../src/static/images/mahipat16.jpg`,
+    ogImage: `${__dirname}/../src/static/images/mahipat250.jpg`,
     userDescription: "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl.",// User description to display in the author segment.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",

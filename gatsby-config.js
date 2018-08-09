@@ -38,12 +38,12 @@ module.exports = {
             },
             {
               src: "/images/mahipat192.jpg",
-              sizes: `48x48`,
+              sizes: `192x192`,
               type: `image/jpg`
             },
             {
               src: "/images/mahipat512.jpg",
-              sizes: `48x48`,
+              sizes: `512x512`,
               type: `image/jpg`
             },
           ]
