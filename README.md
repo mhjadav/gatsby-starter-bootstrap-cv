@@ -1,9 +1,10 @@
 # gatsby-starter-bootstrap-cv 
-[deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
-A basic card layout bootstrap template for [Gatsby V2](https://www.gatsbyjs.org/) .  
+[![deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
+
+This is a basic card layout bootstrap template build with ❤️ using [Gatsby V2](https://www.gatsbyjs.org/) .  
 
 ## Demo
-See it in action [here](http://obese-plant.surge.sh).
+See it in action [here](https://elegant-hawking-bbad05.netlify.com/).
 
 ## Lighthouse scores
 
@@ -38,17 +39,13 @@ gatsby develop
 module.exports = {
     siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
     siteLogo: "http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg", // Logo used for SEO and manifest.
-    siteUrl: "http://obese-plant.surge.sh", // Domain of your website without pathPrefix.
+    siteUrl: "https://elegant-hawking-bbad05.netlify.com/", // Domain of your website without pathPrefix.
     siteKeyword:"mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
     siteDescription: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "", // GA tracking ID.
     userName: "Mahipat Jadav", // Username to display in the author segment.
     userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Ahmedabad, Gujarat, India", // User location to display in the author segment.
-    userAvatar: "http://res.cloudinary.com/vierbit/image/upload/v1533837680/mahipat.jpg", // User avatar to display in the author segment.
-    favicon32:"http://res.cloudinary.com/vierbit/image/upload/w_32,h_32/v1533837680/mahipat.jpg",
-    favicon16:"http://res.cloudinary.com/vierbit/image/upload/w_16,h_16/v1533837680/mahipat.jpg",
-    ogImage:"http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg",
     userDescription: "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl.",// User description to display in the author segment.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",
