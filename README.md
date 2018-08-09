@@ -7,7 +7,7 @@ See it in action [here](http://obese-plant.surge.sh).
 
 ## Lighthouse scores
 
-[![Lighthouse scores](https://lighthouse.now.sh/?perf=99&pwa=100&a11y=80&bp=100&seo=100)]
+![Lighthouse scores](https://lighthouse.now.sh/?perf=99&pwa=100&a11y=80&bp=100&seo=100)
 
 ## Installation
 ```
