@@ -1,12 +1,23 @@
-# gatsby-starter-bootstrap-cv
-A minimalistic bootstrap starter for [Gatsby](https://www.gatsbyjs.org/) with a 2 column layout.  
+# gatsby-starter-bootstrap-cv 
+[deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
+A basic card layout bootstrap template for [Gatsby V2](https://www.gatsbyjs.org/) .  
 
 ## Demo
 See it in action [here](http://obese-plant.surge.sh).
 
+## Lighthouse scores
+
+[![Lighthouse scores](https://lighthouse.now.sh/?perf=99&pwa=100&a11y=80&bp=100&seo=100)]
+
 ## Installation
 ```
+Installation
 gatsby new gatsby-site https://github.com/mhjadav/gatsby-starter-bootstrap-cv
+```
+```
+Start Editing
+gatsby develop
+
 ```
 
 ## Features
