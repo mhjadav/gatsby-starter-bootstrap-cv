@@ -1,6 +1,9 @@
+const path = require('path');
+
 module.exports = {
+    name:"Gatsby Starter Bootstrap CV",
     siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
-    siteLogo: "http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg", // Logo used for SEO and manifest.
+    siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
     siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
     siteKeyword:"mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
     siteDescription: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.
@@ -11,7 +14,7 @@ module.exports = {
     userAvatar: "http://res.cloudinary.com/vierbit/image/upload/v1533837680/mahipat.jpg", // User avatar to display in the author segment.
     favicon32:"http://res.cloudinary.com/vierbit/image/upload/w_32,h_32/v1533837680/mahipat.jpg",
     favicon16:"http://res.cloudinary.com/vierbit/image/upload/w_16,h_16/v1533837680/mahipat.jpg",
-    ogImage:"http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg",
+    ogImage: "http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg",
     userDescription: "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl.",// User description to display in the author segment.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",

@@ -1,7 +1,18 @@
-
+const path = require('path');
+const {
+  name,
+  siteTitle,
+  siteDescription,
+  siteKeyword,
+  themeColor,
+  backgroundColor,
+  siteUrl,
+  siteLogo
+} = require('./data/site-config');
+console.log(path.resolve(__dirname, '/src/assets/images/mahipat192.jpg'));
 module.exports = {
     plugins: [
-    'gatsby-plugin-react-helmet',
+      'gatsby-plugin-react-helmet',
       {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
@@ -9,12 +20,42 @@ module.exports = {
           head: true
         }
       },
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: siteTitle,
+          short_name: name,
+          start_url: "/",
+          background_color: backgroundColor,
+          theme_color: themeColor,
+          display: "minimal-ui",
+          icon: siteLogo,
+          icons: [
+            {
+              src: "/images/mahipat48.jpg",
+              sizes: `48x48`,
+              type: `image/jpg`
+            },
+            {
+              src: "/images/mahipat192.jpg",
+              sizes: `48x48`,
+              type: `image/jpg`
+            },
+            {
+              src: "/images/mahipat512.jpg",
+              sizes: `48x48`,
+              type: `image/jpg`
+            },
+          ]
+        },
+    },
+    'gatsby-plugin-offline'
     ],
     siteMetadata: {
-      title: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.,
-      description: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.,
-      keywords: "mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
-      url: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv" // Domain of your website without pathPrefix.
+      title: siteTitle,
+      description: siteDescription,
+      keywords: siteKeyword,
+      url: siteUrl
     }
   };
   
