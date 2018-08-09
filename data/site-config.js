@@ -11,10 +11,10 @@ module.exports = {
     userName: "Mahipat Jadav", // Username to display in the author segment.
     userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Ahmedabad, Gujarat, India", // User location to display in the author segment.
-    userAvatar: `${__dirname}/../src/static/images/mahipat.jpg`, // User avatar to display in the author segment.
-    favicon32:`${__dirname}/../src/static/images/mahipat32.jpg`,
-    favicon16:`${__dirname}/../src/static/images/mahipat16.jpg`,
-    ogImage: `${__dirname}/../src/static/images/mahipat250.jpg`,
+    userAvatar: "../static/images/mahipat.jpg", // User avatar to display in the author segment.
+    favicon32:`../static/images/mahipat32.jpg`,
+    favicon16:`../static/images/mahipat16.jpg`,
+    ogImage: `../static/images/mahipat250.jpg`,
     userDescription: "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl.",// User description to display in the author segment.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",

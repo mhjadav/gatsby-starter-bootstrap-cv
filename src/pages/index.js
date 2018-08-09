@@ -6,8 +6,7 @@ import  "./index.css";
 import ProgressBar from "../components/progressBar";
 import DetailsCard from "../components/detailsCard";
 import {
-  userAvatar
-  ,userName
+  userName
   ,userDescription
   ,userLocation
   ,userEmail
@@ -21,10 +20,12 @@ import {
   ,siteDescription
   ,siteKeywords
   ,siteURL
-  ,ogImage
-  ,favicon16
-  ,favicon32
 } from '../../data/site-config'
+
+import userAvatar from  "../static/images/mahipat.jpg";
+import favicon32  from   "../static/images/mahipat32.jpg";
+import favicon16  from   "../static/images/mahipat16.jpg";
+import ogImage  from   "../static/images/mahipat250.jpg";
 
 export default () => (
   <div className="container-fluid">
