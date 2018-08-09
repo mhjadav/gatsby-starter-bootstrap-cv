@@ -2,7 +2,7 @@
 A minimalistic bootstrap starter for [Gatsby](https://www.gatsbyjs.org/) with a 2 column layout.  
 
 ## Demo
-See it in action [here](https://mhjadav.github.io/gatsby-starter-bootstrap-cv).
+See it in action [here](http://obese-plant.surge.sh).
 
 ## Installation
 ```
@@ -25,7 +25,7 @@ gatsby new gatsby-site https://github.com/mhjadav/gatsby-starter-bootstrap-cv
 module.exports = {
     siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
     siteLogo: "http://res.cloudinary.com/vierbit/image/upload/w_250,h_250/v1533837680/mahipat.jpg", // Logo used for SEO and manifest.
-    siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
+    siteUrl: "http://obese-plant.surge.sh", // Domain of your website without pathPrefix.
     siteKeyword:"mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
     siteDescription: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "", // GA tracking ID.
