@@ -17,6 +17,8 @@ gatsby new gatsby-site https://github.com/mhjadav/gatsby-starter-bootstrap-cv
 - Prerendered Open Graph tags for rich sharing
 - Site config to add data
 - Make your site ready in 2 mins
+- Offline support
+- Web App Manifest support
 
 ## Customization
 - Configure site meta data and add your GA tracking ID in `gatsby-config.js`
