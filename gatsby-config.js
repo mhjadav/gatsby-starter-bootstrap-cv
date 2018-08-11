@@ -49,7 +49,8 @@ module.exports = {
           ]
         },
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-purgecss'
     ],
     siteMetadata: {
       title: siteTitle,
