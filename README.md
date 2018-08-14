@@ -28,7 +28,7 @@ gatsby develop
 - Google Analytics using `gatsby-plugin-google-analytics`
 - Prerendered Open Graph tags for rich sharing
 - Site config to add data
-- Make your site ready in 2 mins
+- Make your site fast
 - Offline support
 - Web App Manifest support
 
