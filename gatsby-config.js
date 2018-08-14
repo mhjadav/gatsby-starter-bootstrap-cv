@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
-        whitelist: ["fa", "fa-twitter", "fa-github", "fa-linkedin"]
+        whitelist: ["body","html","fa", "fa-twitter", "fa-github", "fa-linkedin"]
       }
     },
     'gatsby-plugin-offline',
