@@ -20,7 +20,7 @@ import {
   ,siteDescription
   ,siteKeywords
   ,siteURL
-} from '../../data/site-config'
+} from "../../site-config"
 
 import userAvatar from  "../static/images/mahipat.jpg";
 import favicon32  from   "../static/images/mahipat32.jpg";

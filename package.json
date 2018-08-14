@@ -1,28 +1,37 @@
 {
-  "name": "mojaave.com",
-  "description": "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl",
-  "author": "mj@mojaave.com",
+  "name": "gatsby-starter-bootstrap-cv",
+  "description": "Gatsby starter bootstrap cv",
+  "version": "1.0.0",
+  "author": "Mahipat Jadav <mj@mojaave.com>",
   "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby bootstrap",
+    "bootstrap cv"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "font-awesome": "^4.7.0",
     "gatsby": "next",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-manifest": "^1.0.27",
-    "gatsby-plugin-offline": "^1.0.18",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.4",
+    "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
     "gatsby-plugin-purgecss": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhjadav/gatsby-starter-bootstrap-cv"
   }
 }

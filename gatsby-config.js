@@ -1,4 +1,3 @@
-const path = require('path');
 const {
   name,
   siteTitle,
@@ -8,8 +7,7 @@ const {
   backgroundColor,
   siteUrl,
   siteLogo
-} = require('./data/site-config');
-console.log(path.resolve(__dirname, '/src/assets/images/mahipat192.jpg'));
+} = require('./site-config');
 module.exports = {
     plugins: [
       'gatsby-plugin-react-helmet',
@@ -49,8 +47,13 @@ module.exports = {
           ]
         },
     },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        whitelist: ["fa", "fa-twitter", "fa-github", "fa-linkedin"]
+      }
+    },
     'gatsby-plugin-offline',
-    'gatsby-plugin-purgecss'
     ],
     siteMetadata: {
       title: siteTitle,

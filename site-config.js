@@ -2,20 +2,20 @@ const path = require('path');
 
 module.exports = {
     name:"Mojaave.com",
-    siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
-    siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
+    siteTitle: "Mahipat Jadav,Full stack developer,Javascript,ReactJs,India", // Site title.
+    siteLogo: `${__dirname}/src/static/images/mahipat.jpg`,
     siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
-    siteKeyword:"mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
-    siteDescription: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.
-    googleAnalyticsID: "", // GA tracking ID.
+    siteKeyword:"mahipat Jadav, software engineer, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
+    siteDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
+    googleAnalyticsID: "UA-115817837-3", // GA tracking ID.
     userName: "Mahipat Jadav", // Username to display in the author segment.
     userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Ahmedabad, Gujarat, India", // User location to display in the author segment.
-    userAvatar: "../static/images/mahipat.jpg", // User avatar to display in the author segment.
-    favicon32:`../static/images/mahipat32.jpg`,
-    favicon16:`../static/images/mahipat16.jpg`,
-    ogImage: `../static/images/mahipat250.jpg`,
-    userDescription: "Full Stack Developer. - Javascript, Typescript, ReactJS, NodeJS, Bootstrap, GraphQl.",// User description to display in the author segment.
+    userAvatar: "./src/static/images/mahipat.jpg", // User avatar to display in the author segment.
+    favicon32:`./src/static/images/mahipat32.jpg`,
+    favicon16:`./src/static/images/mahipat16.jpg`,
+    ogImage: `./src/static/images/mahipat250.jpg`,
+    userDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",
     skills:[
