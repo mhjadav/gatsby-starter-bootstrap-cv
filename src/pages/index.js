@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.css';
-import 'font-awesome/css/font-awesome.css';
 import  "./index.css";
 import ProgressBar from "../components/progressBar";
 import DetailsCard from "../components/detailsCard";
