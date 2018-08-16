@@ -16,8 +16,10 @@ Installation
 gatsby new gatsby-site https://github.com/mhjadav/gatsby-starter-bootstrap-cv
 ```
 ```
-Start Editing
-gatsby develop
+Edit site-config.js
+
+Run -
+`gatsby develop`
 
 ```
 
@@ -31,6 +33,7 @@ gatsby develop
 - Make your site fast
 - Offline support
 - Web App Manifest support
+- Optimized for SEO (99/100) By [Yellow Labs Tool](https://yellowlab.tools/result/f3uqiylhq5)
 
 ## Customization
 - Configure site meta data and add your GA tracking ID in `gatsby-config.js`
@@ -189,4 +192,3 @@ module.exports = {
     backgroundColor: "#fff" // Used for setting manifest background color.
   };
 ```
-
