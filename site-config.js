@@ -149,7 +149,7 @@ module.exports = {
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/in/mahipat-jadav-987986158/",
+        url: "https://www.linkedin.com/in/mhjadav/",
         iconClassName: "fa fa-linkedin"
       }
     ],
